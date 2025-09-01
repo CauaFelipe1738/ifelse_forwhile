@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOR</title>
+</head>
+<body>
+</body>
+<script>
+    //GERADOR DE TABUADA
+
+    //Pega o input do usuario
+    let numero = Number(prompt("Digite um número e darei a tabuada", 1));
+
+    //O código se repetirá 10 vezes,
+    // onde o parâmetro i incrementa 1 a cada loop enquanto
+    // (i < 10 for verdadeiro)
+    let resultado = ""
+    for(let i = 1; i <= 10; i++){
+        //variavel para armazenar o resultado
+        //O += concatena tudo para uma string só
+        resultado += `${numero} x ${i} =  ${numero * i} \n`;
+    }
+    
+    window.alert(resultado);
+</script>
+</html>
