@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+   font-family: "roboto";
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.card{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+    background-color: antiquewhite;
+    padding: 20px;
+    align-items: center;
+    border-radius: 20px ;
+}
+.body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
